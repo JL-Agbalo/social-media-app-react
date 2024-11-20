@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Feed from './Components/Feed/Feed';
 import Login from './Components/Login/Login';
 import Profile from './Components/Profile/Profile';
+import Signup from './Components/SignUp/SignUp';
 import './styles.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/feed" element={<Feed />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/" element={<Login />} />
       </Routes>
     </Router>
