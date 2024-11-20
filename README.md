@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `Todo Study List` fails to minify
+
+JSX React Tutorial: Status []
+React Components Explained: Status []
+React Props and State: Status []
+React Router Tutorial: Status []
+React Router v6: Status []
+React Bootstrap 5 Tutorial: Status []
+React Form Handling: Status []
+React useState Hook: Status []
+React useNavigate Hook: Status []
+React Controlled Components: Status []
+React Form Validation: Status []
+User Authentication in React: Status []
+React Login and Signup Tutorial: Status []
+Bootstrap 5 Forms and Layout: Status []
+Debugging React with DevTools: Status []
+Git and GitHub Tutorial: Status []
+React Router with useNavigate: Status []
+React Hooks Tutorial: Status []
+React Router Dynamic Routes: Status []
