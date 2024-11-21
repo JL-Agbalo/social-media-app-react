@@ -2,10 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Feed from './Components/Feed/Feed';
-import Login from './Components/Login/Login';
-import Profile from './Components/Profile/Profile';
-import Signup from './Components/SignUp/SignUp';
-import './styles.css';
+import Login from './pages/Login';
+import Profile from './pages/Profile';
+import Signup from './pages/SignUp';
+import './styles/global.css';
 
 function App() {
   return (

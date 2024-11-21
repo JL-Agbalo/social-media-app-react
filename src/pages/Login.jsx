@@ -2,16 +2,18 @@
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link, useNavigate } from "react-router-dom"; // Import Link from react-router-dom
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
     // Handle login logic here
     console.log("Login submitted:", { email, password });
+    navigate("/feed");
   };
 
   return (
@@ -23,7 +25,7 @@ function Login() {
             Email
           </label>
           <input
-            type="email"
+            type="text"
             className="form-control"
             id="email"
             value={email}
