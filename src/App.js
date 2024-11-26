@@ -4,7 +4,6 @@ import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-d
 import Feed from './Components/Feed/Feed';
 import Footer from './Components/Footer/Footer';
 import Login from './pages/Login';
-import Profile from './pages/Profile';
 import Signup from './pages/SignUp';
 import './styles/global.css';
 
@@ -28,10 +27,10 @@ function App() {
             path="/feed"
             element={isLoggedIn ? <Feed /> : <Navigate to="/login" />}
           />
-          <Route
+          {/* <Route
             path="/profile"
             element={isLoggedIn ? <Profile /> : <Navigate to="/login" />}
-          />
+          /> */}
 
           {/* Default route */}
           <Route path="/" element={<Navigate to="/login" />} />
