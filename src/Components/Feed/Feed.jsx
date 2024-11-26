@@ -1,10 +1,14 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Post from "../Post/Post";
 function Feed() {
   return (
     <div>
       <Navbar />
-      <div>Feed</div>
+      <div>
+        Feed
+        <Post></Post>
+      </div>
     </div>
   );
 }

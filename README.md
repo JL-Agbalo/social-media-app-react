@@ -74,7 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 JSX React Tutorial: Status []
 React Components Explained: Status []
 React Props and State: Status []
-React Router Tutorial: Status []
+React Router Tutorial: Status [Done]
 React Router v6: Status []
 React Bootstrap 5 Tutorial: Status []
 React Form Handling: Status []
